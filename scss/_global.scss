@@ -1,0 +1,59 @@
+// variable gap
+$gap: 20px;
+
+section {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: $gap;
+      
+      .login-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+               }
+        // .main-text
+        // .display-1 {
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     margin-bottom: 200px;
+           
+        // }
+        
+        form{
+            @media (max-width: 768px){
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+            }
+        }
+      }
+      
+      .image-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+      }
+    }
+  
+  
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $gap;
+
+  
+    .secondary-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items:end;
+    }
+  }

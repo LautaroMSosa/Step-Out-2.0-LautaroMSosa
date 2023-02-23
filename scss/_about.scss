@@ -1,0 +1,23 @@
+@import '_global.scss';
+@import '_nav.scss';
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.text-2-container{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-align: center;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
